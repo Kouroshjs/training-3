@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="bgMain">
+    <div class="container">
+      <div class="form">
+        <label for="username">username:</label> <input type="text" name="username" id="username">
+        <p id="usernameError"></p>
+        <label for="username">password:</label> <input type="password" name="password" id="password"">
+        <p id=" passwordError"></p>
+        <button id="submit">submit</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="modal">
+    <p id="textModal">Eror! <br> username should be atleast 12 characters <br> password should be atleast 8characters
+    </p>
+  </div>
+
+  <script src="/script.js"></script>
+</body>
+
+</html>
